@@ -4,13 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import  Router  from './components/Router';
+import MenuRutas from './components/MenuRutas';
+import FormSimple from './components/FormSimple';
+import Collatz from './components/Collatz';
+import TablaMultiplicar from './components/TablaMultiplicar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <h1>PAGINA PRINCIPAL</h1>
     <hr/>
-      <Router/>
+      {/* <Router/>
+      <MenuRutas/> */}
+      {/* <FormSimple/> */}
+      <TablaMultiplicar/>
     <hr/>
   </React.StrictMode>
 );
