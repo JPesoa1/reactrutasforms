@@ -1,0 +1,11 @@
+import React, { Component } from 'react'
+import logohome from './../assets/images/home.png'
+
+export default class Home extends Component {
+  render() {
+    return (
+      <div> <h1>Componente Home</h1>
+      <img src={logohome} alt="" style={{width:"150px",height:"150px"}}/></div>
+    )
+  }
+}
