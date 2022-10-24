@@ -8,6 +8,7 @@ import MenuRutas from './components/MenuRutas';
 import FormSimple from './components/FormSimple';
 import Collatz from './components/Collatz';
 import TablaMultiplicar from './components/TablaMultiplicar';
+import SeleccionMultipleForms from './components/SeleccionMultipleForms';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,7 @@ root.render(
       {/* <Router/>
       <MenuRutas/> */}
       {/* <FormSimple/> */}
-      <TablaMultiplicar/>
+      <SeleccionMultipleForms/>
     <hr/>
   </React.StrictMode>
 );
